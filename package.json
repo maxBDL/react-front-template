@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "test",
-    "build": "rm -rf dist && webpack"
+    "build": "webpack",
+    "watch": "webpack -w"
   },
   "repository": {
     "type": "git",
@@ -38,7 +39,18 @@
     "webpack-cli": "3.3.12"
   },
   "dependencies": {
+    "@types/react-leaflet": "^2.5.2",
+    "@types/styled-components": "^5.1.5",
+    "chroma-js": "^2.1.0",
+    "css-loader": "^5.0.1",
+    "css-modules-typescript-loader": "^4.0.1",
+    "leaflet": "^1.7.1",
+    "node-sass": "^5.0.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-leaflet": "^3.0.2",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "styled-components": "^5.2.1"
   }
 }
